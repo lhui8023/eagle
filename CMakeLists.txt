@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(eagle)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(eagle main.cpp linked_list/ListNodeExample.cpp linked_list/ListNodeExampe2.cpp add_two_numbers/AddTwoNumbers.cpp linked_list/ReverseLinkedListII.cpp linked_list/MergeTwoSortedLists.cpp linked_list/IntersectionOfTwoLinkedLists.cpp linked_list/LinkedListCycle.cpp linked_list/PartitionList.cpp linked_list/CopyListwithRandomPointer.cpp stack_queue_heap/MyStack.cpp stack_queue_heap/MyQueue.cpp stack_queue_heap/ImplementStackUsingQueues.cpp stack_queue_heap/ImplementQueueUsingStacks.cpp stack_queue_heap/MyQueueII.cpp stack_queue_heap/MinStack.cpp stack_queue_heap/POJ1363Rails.cpp stack_queue_heap/MyHeap.cpp stack_queue_heap/KthLargestElementInAnArray.cpp stack_queue_heap/FindMedianFromDataStream.cpp mllib/Perceptron.cpp greedy_algorithm/GreedyBill.cpp greedy_algorithm/AssignCookies.cpp greedy_algorithm/WiggleSubsequence.cpp greedy_algorithm/RemoveKDigits.cpp greedy_algorithm/JumpGame.cpp greedy_algorithm/JumpGameII.cpp algorithm/part1.cpp algorithm/chicken_rabbit.cpp algorithm/part2.cpp)
